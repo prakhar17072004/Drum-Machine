@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Drum Machine</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="index.js"></script>
+    <style>
+        body{
+    background-color: #ff7979;
+}
+    </style>
+  
+</head>
+  <body>
+    <h1 class="text-center">Drum Machine</h1>
+    <div class="container " id="drum-machine">
+        <div class="card my-3">
+            <div class="card-body">
+        <div  class="text-center" id="display">Nothing</div>
+     </div>
+    </div>
+         
+        <button class=" drum-pad btn btn-block btn-primary"id="drum-0"  onclick="play('Q')">
+            
+            Q
+            <audio src="./clip/back-to-the-volcano-castle-free-halloween-music-scloudtomp3downloader.com_.mp3" class="clip " id="Q"></audio>
+        </button>
+        <button class="drum-pad btn btn-block btn-primary"id="drum-1" onclick="play('W')">
+            
+            W
+            <audio src="./clip/Bossa-Antigua.mp3" class="clip " id="W"></audio>
+        </button>
+        <button class="drum-pad    btn btn-primary"id="drum-2"  onclick="play('E')">
+            
+            E
+            <audio src="./clip/elevator-madness-w-caturday-scloudtomp3downloader.com_.mp3" class="clip " id="E"></audio>
+        </button>
+        <button class="drum-pad btn btn-block btn-primary"id="drum-3" onclick="play('A')">
+            A
+            <audio src="./clip/Rafael_Archangel_-_08_-_Two_Heads_-_174bpm.mp3" class="clip" id="A"></audio>
+        </button>
+        <button class="drum-pad btn btn-block btn-primary"id="drum-4"  onclick="play('S')">
+            
+            S
+            <audio src="./clip/Komiku_-_01_-_Intro.mp3" class="clip " id="S"></audio>
+            
+        </button>
+        <button class="drum-pad btn btn-block btn-primary"id="drum-5"  onclick="play('D')">
+            
+            D
+            <audio src="./clip/Komiku_-_02_-_Boss_4__Cobblestone_in_their_face.mp3" class="clip " id="D"></audio>
+        </button>
+        <button class="drum-pad btn btn-block btn-primary"id="drum-6" onclick="play('Z')">
+        
+            Z
+            <audio src="./clip/Komiku_-_04_-_Suburb.mp3" class="clip " id="Z"></audio>
+        </button>
+        <button class="drum-pad btn btn-block btn-primary"id="drum-7" onclick="play('X')">
+        
+            X
+            <audio src="./clip/Loyalty_Freak_Music_-_04_-_Cant_Stop_My_Feet_.mp3" class="clip " id="X"></audio>
+        </button>
+        <button class="drum-pad btn btn-block btn-primary "id="drum-8"  onclick="play('C')">
+            
+            C
+            <audio src="./clip/Rafael_Archangel_-_16_-_Smoke.mp3" class="clip " id="C"></audio>
+        </button>
+    </div>
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
